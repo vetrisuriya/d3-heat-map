@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+}
+h1, h2 {
+  margin: 0px;
+}
+body .d3-tip {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+}
+section {
+  width: auto;
+  overflow: visible;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+}
+section heading {
+  text-align: center;
+}
+section svg {
+  stroke-width: 1;
+  stroke: black;
+}
+section .y-axis text,
+section .x-axis text,
+section .legend text {
+  stroke-width: 0;
+}
+section .map {
+  stroke-width: 0;
+}
+section .map rect:hover {
+  stroke-width: 2;
+}
